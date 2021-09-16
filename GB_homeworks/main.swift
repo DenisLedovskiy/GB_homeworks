@@ -89,12 +89,12 @@ car2.cargoIn(gruz: 300)
 print("Двигатель \(car2.dvigatelState),", "Загружено \(car2.filledVolumeTrunk) литров")
 
 car2.cargoIn(gruz: 200)
-print("Загружено \(car2.filledVolumeTrunk) литров")
+print("Загружено \(car2.filledVolumeTrunk) литров.")
 
 car2.cargoOut(gruz: 400)
-print("Загружено \(car2.filledVolumeTrunk) литров")
+print("Загружено \(car2.filledVolumeTrunk) литров.")
 
 car2.cargoOut(gruz: 500)
-print("Загружено \(car2.filledVolumeTrunk) литров")
+print("Загружено \(car2.filledVolumeTrunk) литров.")
 
 
