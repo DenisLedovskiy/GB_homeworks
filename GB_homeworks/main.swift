@@ -95,7 +95,9 @@ final class TrunkCar: Car {
     }
 }
 
-var car1 = SportCar(marka: "Ferrari", model: "A30", color: "Red", probeg: 1200, price: 32_000_000, razgonDo100: 4.3, engineCapacity: 6.0, isSpoiler: true, driveMods: .city)
+var car1 = SportCar(marka: "Ferrari", model: "A30", color: "Red",
+                    probeg: 1200, price: 32_000_000, razgonDo100: 4.3,
+                    engineCapacity: 6.0, isSpoiler: true, driveMods: .city)
 print("Автомобиль \(car1.marka) \(car1.model). Цена \(car1.price) рублей. Разгон до 100 км/ч - \(car1.razgonDo100) секунды. Текущий режим \(car1.driveMods).")
 
 car1.pustoiMetod(vvod: "Sport")
@@ -104,7 +106,8 @@ print("Текущий режим \(car1.driveMods).")
 car1.pustoiMetod(vvod: "Add")
 print("Текущий режим \(car1.driveMods).")
 
-var car2 = TrunkCar(marka: "Volvo", model: "S20", color: "blue", probeg: 245_870, price: 5_400_000, loadCapacity: 5, volumeTrailer: 60, wheels: .add)
+var car2 = TrunkCar(marka: "Volvo", model: "S20", color: "blue", probeg: 245_870,
+                    price: 5_400_000, loadCapacity: 5, volumeTrailer: 60, wheels: .add)
 print("Грузовик \(car2.marka) \(car2.model). Грузоподъемность \(car2.loadCapacity) тонн. Вмещаемый объём \(car2.volumeTrailer) кубов. \(car2.wheels.rawValue)")
 
 car2.pustoiMetod(vvod: "Remove")
