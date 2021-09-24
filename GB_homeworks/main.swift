@@ -52,10 +52,8 @@ extension Queue {
             return nil
         } else {
             print("Первый в очереди - \(elements[0]).")
+            return elements[0]
         }
-
-        let element = elements.count == 0 ? nil : elements[0]
-        return element
     }
 }
 
